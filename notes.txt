@@ -1,0 +1,9 @@
+Game Logic:
+
+- after a card is clicked, add it to a 'currentPair' variable
+- when the pair contains two cards, check if they're equal
+    - if yes, disable the onClick() for those cards
+            add 1 to the score
+            if all cards are face up, then we win
+    - if no, flip them back over
+            remove them from the currentPair
